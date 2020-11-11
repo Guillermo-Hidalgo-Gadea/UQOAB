@@ -1,6 +1,5 @@
-# test script for loading data, cleaning data, calculating new features
-# and HMM examples
-
+# Work in Progress script for loading pose data in csv format from facial expressions
+# Test analysis with HMM and UMAP examples
 
 import numpy as np
 from hmmlearn import hmm
