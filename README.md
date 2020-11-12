@@ -5,7 +5,8 @@ This repository is a collection of different work-in-progress approaches in unsu
 
 The main analysis pipeline does or will soon contain:
 
-- pose estimation from video (see DeepLabCut)
-- multi-view triangulation and 3D reconstruction (see Anipose)
+- markerless pose estimation from video data with DeepLabCut
+- multi-view triangulation and 3D reconstruction with Anipose
 - UMAP dimensionality reduction
-- time series analysis with VAME, TICC, HMM
+- stochastic modeling of time series data with Hidden Markov Models (HMM)
+- behavioral clustering with Variational Embeddings of Animal Motion (VAME),  Toeplitz Inverse Covariance-Based Clustering (TICC) and others
