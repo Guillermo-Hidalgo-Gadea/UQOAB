@@ -1,0 +1,133 @@
+Task:
+TrainingFraction:
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+- - 8
+- - 9
+- - 10
+- - 11
+- - 12
+- - 13
+- - 14
+- - 15
+- - 16
+- - 17
+- - 18
+- - 19
+- - 20
+all_joints_names:
+- lefteye1
+- lefteye2
+- righteye1
+- righteye2
+- leyebrow1
+- leyebrow2
+- leyebrow3
+- reyebrow1
+- reyebrow2
+- reyebrow3
+- lear
+- rear
+- nose1
+- nose2
+- nose3
+- nose4
+- uplip
+- lowlip
+- llip
+- rlip
+- chin
+alphavalue:
+batch_size:
+bodyparts:
+bottomheight: 400
+colormap:
+corner2move2:
+crop: true
+crop_pad: 0
+croppedtraining:
+cropping:
+cropratio: 0.4
+dataset: training-datasets\iteration-0\UnaugmentedDataSet_emoface3Jul30\emoface3_guillermo95shuffle1.mat
+dataset_type: imgaug
+date:
+default_augmenter:
+default_net_type:
+deterministic: false
+display_iters: 1000
+dotsize:
+fg_fraction: 0.25
+global_scale: 0.8
+init_weights: C:\Users\hidalggc\sciebo\DeepLabCut\emoface3-guillermo-2020-07-30\dlc-models\iteration-0\emoface3Jul30-trainset95shuffle1\train\snapshot-300000
+intermediate_supervision: false
+intermediate_supervision_layer: 12
+iteration:
+leftwidth: 400
+location_refinement: true
+locref_huber_loss: true
+locref_loss_weight: 0.05
+locref_stdev: 7.2801
+log_dir: log
+max_input_size: 1500
+mean_pixel:
+- 123.68
+- 116.779
+- 103.939
+metadataset: training-datasets\iteration-0\UnaugmentedDataSet_emoface3Jul30\Documentation_data-emoface3_95shuffle1.pickle
+min_input_size: 64
+minsize: 100
+mirror: false
+move2corner:
+multi_step:
+- - 0.005
+  - 10000
+- - 0.02
+  - 430000
+- - 0.002
+  - 730000
+- - 0.001
+  - 1030000
+multianimalproject:
+net_type: resnet_101
+num_joints: 21
+num_outputs: 1
+numframes2pick:
+optimizer: sgd
+pairwise_huber_loss: false
+pairwise_predict: false
+partaffinityfield_predict: false
+pcutoff:
+pos_dist_thresh: 17
+project_path: C:\Users\hidalggc\sciebo\DeepLabCut\emoface3-guillermo-2020-07-30
+regularize: false
+rightwidth: 400
+save_iters: 50000
+scale_jitter_lo: 0.5
+scale_jitter_up: 1.25
+scoremap_dir: test
+scorer:
+shuffle: true
+skeleton: []
+skeleton_color: black
+snapshot_prefix: C:\Users\hidalggc\sciebo\DeepLabCut\emoface3-guillermo-2020-07-30\dlc-models\iteration-0\emoface3Jul30-trainset95shuffle1\train\snapshot
+snapshotindex:
+start:
+stop:
+stride: 8.0
+topheight: 400
+video_sets:
+weigh_negatives: false
+weigh_only_present_joints: false
+weigh_part_predictions: false
+weight_decay: 0.0001
+x1:
+x2:
+y1:
+y2:
