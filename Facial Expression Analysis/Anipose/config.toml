@@ -1,0 +1,65 @@
+
+project = 'emoface2'
+
+model_folder = 'D:\DeeplabCut\EmoFace-Guillermo-2020-10-20' 
+
+nesting = 1
+video_extension = 'avi'
+
+[calibration]
+# checkerboard / charuco / aruco
+board_type = "charuco"
+
+# width and height of grid
+board_size = [10, 7]
+
+# number of bits in the markers, if aruco/charuco
+board_marker_bits = 4
+
+# number of markers in dictionary, if aruco/charuco
+board_marker_dict_number = 50
+
+# length of marker side
+board_marker_length = 13 # mm
+
+# If charuco or checkerboard, square side length
+board_square_side_length = 17 # mm
+
+animal_calibration = false
+
+fisheye = false
+
+[manual_verification]
+# true / false
+manually_verify = false
+
+[labeling]
+scheme = [
+   ["lefteye1", "lefteye2"], ["righteye1", "righteye2"],
+   ["nose1", "nose3", "nose2","nose4",  "nose1", "nose2"],
+   ["leyebrow1", "leyebrow2", "leyebrow3"],
+   ["reyebrow1", "reyebrow2", "reyebrow3"],
+   ["uplip", "llip", "lowlip", "rlip", "uplip"],
+   ["lear", "chin", "rear"] 
+ ]
+
+[triangulation]
+triangulate = true
+cam_regex = '_cam([A-Z])'
+optim = true
+constraints = [  # set of constant limb length constraints written out as pairs
+   ["lear", "rear"]
+]
+axes = [ #An axis is specified as a pair of points, with the axis going from the first to the second point.
+    ["x", "nose1", "lefteye1"],
+    ["z", "chin", "nose1"]
+]
+
+reference_point = "nose1" # Furthermore, it is often useful to set the zero to a standard reference point. Anipose allows this too.
+
+scale_smooth = 2 # strength of smoothness constraint, higher gives smoother trajectory
+scale_length = 2 # strength of length constraint, higher enforces less variability in limb lengths
+reproj_error_threshold = 5 # in pixels, for robust triangulation
+score_threshold = 0.3 # score threshold for triangulation
+n_deriv_smooth = 2 # derivative to minimize for smoothness
+
