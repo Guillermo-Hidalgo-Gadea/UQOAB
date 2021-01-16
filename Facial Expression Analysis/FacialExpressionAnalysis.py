@@ -1,8 +1,8 @@
-###############################################################################
-#####            Draft Script for facial expressions analysis             #####
-#####            see (link post)                                          ##### 
-#####            (C) 2021 Guillermo Hidalgo Gadea                         #####
-###############################################################################
+#############################################################################################################
+#####            Draft Script for facial expressions analysis                                           #####
+#####            see https://guillermohidalgogadea.com/openlabnotebook/upgrade-your-next-zoom-meeting/  ##### 
+#####            (C) 2021 GuillermoHidalgoGadea.com                                                     #####
+#############################################################################################################
 
 # These are the libraries you will need to have installed in your environment
 import math
