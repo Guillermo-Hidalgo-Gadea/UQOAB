@@ -1,0 +1,4 @@
+# Change the Parameters needed for PoseAnalysis.py here:
+filepath: "/Users/guillermo/Documents/GitHub/UQOAB/Pose Analysis/pose-3d.csv"
+elevation: 10
+azimuth: -80
