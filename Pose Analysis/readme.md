@@ -1,1 +1,3 @@
+## Companion Repository to Blogpost: [How to keep your Python code tidy with these 4 easy tips](https://guillermohidalgogadea.com/openlabnotebook/how-to-keep-your-python-code-tidy-with-4-easy-tips/)
 
+Those of us using python for data science without a solid programming background may agree that working code is good-enough code. But good enough may depend on how many times you are going to use it, and how much effort you will have to put into deciphering it in the future. Your perfectly working code can get very long very quickly, and loosing track of what part of your code was doing what is only natural. I will share 4 easy tips that will help keep your code clean.
