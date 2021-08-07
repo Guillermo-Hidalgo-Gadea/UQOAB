@@ -1,4 +1,4 @@
-# UQOAB
+# UQOAB [<img src="https://github.com/Guillermo-Hidalgo-Gadea/personal-academic-website/blob/master/assets/images/icon.png" alt="logo" align="right" width="100"/>](https://guillermohidalgogadea.com/)
 ## Unsupervised Quantification of Animal Behavior
 
 This repository is a collection of different work-in-progress approaches in unsupervised machine learning for the quantification of animal behavior. 
