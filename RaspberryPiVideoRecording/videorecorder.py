@@ -11,14 +11,13 @@ class camThread(threading.Thread):
         self.previewName = previewName
         self.camID = camID
     def run(self):
-        print "Starting " + self.previewName
+        print(f"Starting {self.previewName}")
         camPreview(self.previewName, self.camID)
 
 def camPreview(previewName, camID):
     cv2.namedWindow(previewName)
     cam = cv2.VideoCapture(camID)
-    s
-    ize = (int(cam.get(3)), int(cam.get(4)))
+    size = (int(cam.get(3)), int(cam.get(4)))
     filename = f"video_{camID}_{date}.avi"
     video = cv2.VideoWriter(filename, cv2.VideoWriter_fourcc(*'MJPG'), 10, size)
     
