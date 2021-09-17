@@ -1,58 +1,45 @@
 import cv2
-  
-   
-# Create an object to read 
-# from camera
-video = cv2.VideoCapture(0)
-   
-# We need to check if camera
-# is opened previously or not
-if (video.isOpened() == False): 
-    print("Error reading video file")
-  
-# We need to set resolutions.
-# so, convert them from float to integer.
-frame_width = int(video.get(3))
-frame_height = int(video.get(4))
-   
-size = (frame_width, frame_height)
-   
-# Below VideoWriter object will create
-# a frame of above defined The output 
-# is stored in 'filename.avi' file.
-result = cv2.VideoWriter('filename.avi', 
-                         cv2.VideoWriter_fourcc(*'MJPG'),
-                         10, size)
+import threading
+from datetime import date
+
+# dd_mm_YY
+date = date.today().strftime("%d_%m_%Y")
+
+class camThread(threading.Thread):
+    def __init__(self, previewName, camID):
+        threading.Thread.__init__(self)
+        self.previewName = previewName
+        self.camID = camID
+    def run(self):
+        print "Starting " + self.previewName
+        camPreview(self.previewName, self.camID)
+
+def camPreview(previewName, camID):
+    cv2.namedWindow(previewName)
+    cam = cv2.VideoCapture(camID)
+    s
+    ize = (int(cam.get(3)), int(cam.get(4)))
+    filename = f"video_{camID}_{date}.avi"
+    video = cv2.VideoWriter(filename, cv2.VideoWriter_fourcc(*'MJPG'), 10, size)
     
-while(True):
-    ret, frame = video.read()
-  
-    if ret == True: 
-  
-        # Write the frame into the
-        # file 'filename.avi'
-        result.write(frame)
-  
-        # Display the frame
-        # saved in the file
-        cv2.imshow('Frame', frame)
-  
-        # Press S on keyboard 
-        # to stop the process
-        if cv2.waitKey(1) & 0xFF == ord('s'):
-            break
-  
-    # Break the loop
+    if cam.isOpened():  # try to get the first frame
+        rval, frame = cam.read()
     else:
-        break
-  
-# When everything done, release 
-# the video capture and video 
-# write objects
-video.release()
-result.release()
-    
-# Closes all the frames
-cv2.destroyAllWindows()
-   
-print("The video was successfully saved")
+        rval = False
+
+    while rval:
+        video.write(frame)
+        cv2.imshow(previewName, frame)
+        rval, frame = cam.read()
+        key = cv2.waitKey(20)
+        if key == 27:  # exit on ESC
+            break
+    cam.release()
+    video.release()
+    cv2.destroyWindow(previewName)
+
+# Create two threads as follows
+thread1 = camThread("Camera 1", 1)
+thread2 = camThread("Camera 2", 2)
+thread1.start()
+thread2.start()
