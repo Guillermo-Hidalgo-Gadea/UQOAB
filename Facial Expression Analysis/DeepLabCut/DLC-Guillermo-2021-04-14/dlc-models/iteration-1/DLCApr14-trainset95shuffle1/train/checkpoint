@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:\\3DBHVR\\FacialExpression_20210414\\DLC-Guillermo-2021-04-14\\dlc-models\\iteration-1\\DLCApr14-trainset95shuffle1\\train\\snapshot-1030000"
+all_model_checkpoint_paths: "D:\\3DBHVR\\FacialExpression_20210414\\DLC-Guillermo-2021-04-14\\dlc-models\\iteration-1\\DLCApr14-trainset95shuffle1\\train\\snapshot-1026000"
+all_model_checkpoint_paths: "D:\\3DBHVR\\FacialExpression_20210414\\DLC-Guillermo-2021-04-14\\dlc-models\\iteration-1\\DLCApr14-trainset95shuffle1\\train\\snapshot-1027000"
+all_model_checkpoint_paths: "D:\\3DBHVR\\FacialExpression_20210414\\DLC-Guillermo-2021-04-14\\dlc-models\\iteration-1\\DLCApr14-trainset95shuffle1\\train\\snapshot-1028000"
+all_model_checkpoint_paths: "D:\\3DBHVR\\FacialExpression_20210414\\DLC-Guillermo-2021-04-14\\dlc-models\\iteration-1\\DLCApr14-trainset95shuffle1\\train\\snapshot-1029000"
+all_model_checkpoint_paths: "D:\\3DBHVR\\FacialExpression_20210414\\DLC-Guillermo-2021-04-14\\dlc-models\\iteration-1\\DLCApr14-trainset95shuffle1\\train\\snapshot-1030000"

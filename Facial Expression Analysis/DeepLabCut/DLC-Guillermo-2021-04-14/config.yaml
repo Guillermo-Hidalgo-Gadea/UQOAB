@@ -1,0 +1,150 @@
+    # Project definitions (do not edit)
+Task: DLC
+scorer: Guillermo
+date: Apr14
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: E:\HumanFacialExpressions\FacialExpression_20210414\DLC-Guillermo-2021-04-14
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\videos\20210414_134601_20323042_file1_1-0000.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\videos\20210414_134601_20323043_file0_1-0000.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\videos\20210414_134601_20323049_file2_1-0000.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\videos\20210414_134607_20323040_file0_1-0000.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\videos\20210414_134607_20323044_file2_1-0000.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\videos\20210414_134607_20323052_file1_1-0000.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject2_cam-A.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject2_cam-B.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject2_cam-C.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject2_cam-D.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject2_cam-E.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject2_cam-F.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject3_cam-A.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject3_cam-B.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject3_cam-C.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject3_cam-D.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject3_cam-E.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject3_cam-F.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject4_cam-A.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject4_cam-B.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject4_cam-C.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject4_cam-D.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject4_cam-E.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject4_cam-F.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject5_cam-A.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject5_cam-B.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject5_cam-C.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject5_cam-D.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject5_cam-E.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject5_cam-F.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject6_cam-A.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject6_cam-B.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject6_cam-C.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject6_cam-D.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject6_cam-E.avi:
+    crop: 0, 1440, 0, 1080
+  D:\3DBHVR\FacialExpression_20210414\DLC-Guillermo-2021-04-14\x_new-videos\subject6_cam-F.avi:
+    crop: 0, 1440, 0, 1080
+bodyparts:
+- chin
+- leftear
+- rightear
+- lefteye1
+- lefteye2
+- lefteye3
+- lefteye4
+- righteye1
+- righteye2
+- righteye3
+- righteye4
+- nose1
+- nose2
+- nose3
+- nose4
+- lefteyebrow1
+- lefteyebrow2
+- lefteyebrow3
+- righteyebrow1
+- righteyebrow2
+- righteyebrow3
+- mouth1
+- mouth2
+- mouth3
+- mouth4
+start: 0
+stop: 1
+numframes2pick: 5
+
+    # Plotting configuration
+skeleton:
+- - chin
+  - leftear
+- - chin
+  - rightear
+skeleton_color: black
+pcutoff: 0
+dotsize: 12
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 1
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+croppedtraining: false
+resnet:
